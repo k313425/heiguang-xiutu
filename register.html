@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <base href="https://s.heiguang.com">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="applicable-device" content="pc"/>
+  <title>会员注册_【黑光数码平台】解决影楼数码难题！</title>
+  <meta name="keywords" content="会员注册,黑光数码平台"/>
+  <meta name="description" content="黑光数码平台会员注册页面。"/>
+  <meta name="csrf-param" content="_csrf">
+  <meta name="csrf-token" content="aTBTQ0VXaFozUx4VcwUwYj16EhV2ZxEgLUkxOXRvWg07RR0yFRsuCA==">
+  <meta name="mobile-agent" content="format=html5;url=https://ms.heiguang.com/register">
+  <link href="/css/validform.css" rel="stylesheet">
+  <link href="http://localhost/css/all.css?0.0.8" rel="stylesheet">
+  <script src="/assets/75c27c00/jquery.js"></script>
+  <script src="/assets/3696fd66/yii.js"></script>
+  <script src="/js/mobile.js"></script>
+</head>
+<body>
+<!--top begin-->
+<div id="b_top">
+  <div class="content">
+    <div class="login" id="topLoginWrapper">
+      <a href="/register" title="黑光注册">注册</a> | <a href="/login" title="黑光登录">登录</a>
+    </div>
+    <div class="nav_lists">
+      <a href="https://www.heiguang.com/" title="黑光网" target="_blank">黑光网</a> |
+      <a href="https://hr.heiguang.com/" title="招聘求职" target="_blank">招聘求职</a> |
+      <a href="https://www.heiguang.com/news/" title="资讯" target="_blank">资讯</a> |
+      <a href="https://www.heiguang.com/ft/" title="访谈" target="_blank">访谈</a> |
+      <a href="https://blog.heiguang.com/" title="达人" target="_blank">达人</a> |
+      <a href="https://tu.heiguang.com/" title="黑光图库" target="_blank">黑光图库</a> |
+      <a href="https://x.heiguang.com" title="微营销" target="_blank">微营销</a>
+    </div>
+  </div>
+</div>
+<!--top end-->
+<div id="mian_title" class="content">
+  <!--logo部分-->
+  <h1 class="logo">
+    <a href="/" target="_self" title="黑光数码平台" style="height: 66px;"><img src="/img/logo.jpg?v=0.3" alt="黑光数码平台"></a>
+  </h1>
+  <!--右侧广告位-->
+  <div id="rAd" style="height: 90px;">
+    <a href="https://s.heiguang.com" title="https://s.heiguang.com" alt="https://s.heiguang.com" target="_blank"><img src="https://s.heiguang.net//statics/ad/2019/11/CpuTOnVzESdgsyAGvFSJvbdps11NpULs.jpg" title="https://s.heiguang.com" alt="https://s.heiguang.com"/></a>
+    <div style="display: none">
+      <img src="https://s.heiguang.net/statics/ad/2019/02/DgQaNhw6j22eVRt0bmYIolG3sSe3Rus0.jpg"></div>
+  </div>
+</div><!--登录-->
+<div id="login" class="Regesiter">
+  <div class="login_type">
+    <h1>请选择</h1>
+    <ul class="list_type">
+      <li><a href="javascript:void(0)">
+        <p><b>我是修图方</b></p>
+        <p>我想在修图平台接单</p>
+        <div class="img_type"><img src="http://localhost/img/img_type01.png" alt=""></div>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <p><b>我是影楼</b></p>
+        <p>我想找修图服务</p>
+        <div class="img_type"><img src="http://localhost/img/img_type02.png" alt=""></div>
+      </a></li>
+    </ul>
+  </div>
+  <div class="content" style="display: none;">
+    <div class="L_left">
+      <h1>注册会员</h1>
+      <div class="L_main">
+        <form id="register-form" class="registerform" action="/register" method="post">
+          <input type="hidden" name="_csrf" value="aTBTQ0VXaFozUx4VcwUwYj16EhV2ZxEgLUkxOXRvWg07RR0yFRsuCA==">
+          <div class="row_l"><span class="L_title"><i class="red">*</i>用户名：</span>
+            <div class="L_text">
+              <input type="text" id="user_name" name="SignupForm[user_name]" class="L_class" datatype="s6-18" nullmsg="请输入用户名！" errormsg="用户名至少3个字符,最多15个字符！" value=""/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">
+                用户名由3到15个字符组成<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span></div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>密码：</span>
+            <div class="L_text">
+              <input type="password" name="SignupForm[password]" class="L_class" datatype="*6-18" nullmsg="请输入密码！" errormsg="密码6个字符,最多18个字符！"/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="passwordStrength" style="display:none;"><b class="red">密码强度：</b>
+                <span>弱</span><span>中</span><span class="last">强</span></div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>确认密码：</span>
+            <div class="L_text">
+              <input type="password" class="L_class" name="SignupForm[password_repeat]" recheck="SignupForm[password]" datatype="*6-18" nullmsg="请确认密码！" errormsg="两次输入的密码不一致！"/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请确认您的密码<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>手机号：</span>
+            <div class="L_text">
+              <input type="text" id="mobile" value="" name="SignupForm[mobile]" datatype="m" nullmsg="请输入您的手机号码！" errormsg="请输入您的手机号码！" class="L_class"/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请输入您的手机号码<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>微信：</span>
+            <div class="L_text">
+              <input type="text" id="weixin" value="" name="SignupForm[weixin]" datatype="weixin" nullmsg="请输入您的微信号码！" errormsg="请输入您的微信号码！" class="L_class"/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请输入您的微信号码<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>邮箱：</span>
+            <div class="L_text">
+              <input type="text" id="email" name="SignupForm[email]" class="L_class" datatype="e" nullmsg="请输入您的邮箱！" errormsg="请输入您的邮箱！" value=""/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请输入您的邮箱<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red">*</i>选择地区：</span>
+            <div class="L_text L_Area">
+              <select class="select R_type Area f16 c3" name="province" id="s1">
+                <option></option>
+              </select>
+              <select class="select R_type Area f16 c3" name="city" id="s2">
+                <option></option>
+              </select>
+              <select class="select R_type Area f16 c3" name="town" id="s3">
+                <option></option>
+              </select>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"><i class="red"></i>所在地区：</span>
+            <div class="L_text">
+              <input id="region" name="SignupForm_city" class="L_class" type="text" disabled value="" datatype="*" nullmsg="请选择所在地区！" errormsg="请选择所在地区！"/>
+              <input id="city" name="SignupForm[city]" type="hidden" value=""/>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请选择您所在的地区<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="select_home photostudio">
+            <input type="hidden" name="SignupForm[type]" value="photostudio"/>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>办公地址：</span>
+              <div class="L_text">
+                <input id="address" type="text" value="" name="SignupForm[address]" datatype="*" nullmsg="请输入您的办公地址！" errormsg="办公地址不能为空" class="L_class">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的办公地址<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>营业名称：</span>
+              <div class="L_text">
+                <input type="text" id="server_name" value="" name="SignupForm[server_name]" class="L_class" datatype="*" nullmsg="请输入您的营业名称！" errormsg="营业名称不能为空">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的营业名称<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>QQ号：</span>
+              <div class="L_text">
+                <input id="qq" type="text" value="" name="SignupForm[qq]" class="L_class" datatype="qq" nullmsg="请输入您的QQ号码！" errormsg="请输入您的QQ号码！">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的QQ号码<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>工作室简介：</span>
+              <div class="L_text">
+                <input id="intro" type="text" value="" name="SignupForm[intro]" class="L_class" datatype="*" nullmsg="请介绍您的工作室！" errormsg="工作室简介不能为空">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请介绍您的工作室<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+            <div class="row_l two_list "><span class="L_title"><i class="red">*</i>服务价格区间：</span>
+              <div class="L_text">
+                <input type="text" value="0" name="SignupForm[min_price]" class="L_class price_class" datatype="two" nullmsg="请输入您的价格！" errormsg="价格不能为空">
+                <span style="width: 10px;text-align: center;">-</span>
+                <input type="text" value="0" name="SignupForm[max_price]" class="L_class price_class" datatype="two" nullmsg="请输入您的价格！" errormsg="价格不能为空">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的价格区间<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="select_home digstudio">
+            <input type="hidden" name="SignupForm[type]" value="digstudio"/>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>影楼名称：</span>
+              <div class="L_text">
+                <input type="text" id="server_name" value="" name="SignupForm[server_name]" class="L_class" datatype="*" nullmsg="请输入您的影楼名称！" errormsg="影楼名称不能为空">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的影楼名称<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+            <div class="row_l"><span class="L_title"><i class="red">*</i>QQ号：</span>
+              <div class="L_text">
+                <input id="qq" type="text" value="" name="SignupForm[qq]" class="L_class" datatype="qq" nullmsg="请输入您的QQ号码！" errormsg="请输入您的QQ号码！">
+              </div>
+              <div class="L_tip">
+                <div class="Validform_checktip"></div>
+                <div class="info">
+                  请输入您的QQ号码<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row_l gree_row"><span class="L_title"></span>
+            <div class="L_text">
+              <label><input type="checkbox" name="SignupForm[agree]" id="Agree" class="gree" value="agree"/>我已阅读并同意<a href="/article/10.html" target="_blank" class="red">《黑光数码平台服务协议》</a></label>
+            </div>
+            <div class="L_tip">
+              <div class="Validform_checktip"></div>
+              <div class="info">请阅读并同意协议<span class="dec"><s class="dec1">&#9670;</s><s class="dec2">&#9670;</s></span>
+              </div>
+            </div>
+          </div>
+          <div class="row_l"><span class="L_title"></span>
+            <div class="L_text"><input id="regSubmit" type="button" class="L_submit" value="立即注册"/></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="L_right">
+      <div class="L_right_r">
+        已经是黑光数码平台会员？<br/><a href="/login">立即登录</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--登录 结束-->
+<!--底部-->
+<script type="text/javascript" src="/js/geo.js"></script>
+<script type="text/javascript" src="/lib/Validform_v5.3.2.js?v=201912191557"></script>
+<script type="text/javascript" src="http://localhost/js/register.js"></script>
+<div style="clear: both"></div>
+<!--foot begin-->
+<link rel="stylesheet" href="https://www.heiguang.com/statics/footer/css/all.min.css?v=0.10" type="text/css"/>
+<div id="footer">
+  <div class="wrap">
+    <dl class="channels left">
+      <dd><a href="http://www.heiguang.com" target="_blank" title="黑光网">黑光网</a></dd>
+      <dd><a href="http://hr.heiguang.com" target="_blank" title="黑光人才网">黑光人才网</a></dd>
+      <dd><a href="http://www.heiguang.com/news/" target="_blank" title="黑光资讯">黑光资讯</a></dd>
+      <dd><a href="http://www.heiguang.com/ft/" target="_blank" title="访谈">黑光访谈</a></dd>
+    </dl>
+    <dl class="channels left">
+      <dd><a href="https://tu.heiguang.com/" target="_blank" title="黑光图库">黑光图库</a></dd>
+      <dd><a href="http://x.heiguang.com" target="_blank" title="微营销">黑光微营销</a></dd>
+      <dd><a href="http://s.heiguang.com" target="_blank" title="黑光修图平台">黑光修图平台</a></dd>
+    </dl>
+    <dl class="channels left">
+      <dd><a href="http://www.heiguang.com/about/contactus.html" target="_blank" title="联系我们" rel="nofollow">联系我们</a>
+      </dd>
+      <dd><a href="http://www.heiguang.com/sitemap.html" target="_blank" title="网站地图" rel="nofollow">网站地图</a></dd>
+      <dd>
+        <a href="http://www.heiguang.com/about/aboutus/index.html" target="_blank" title="关于我们" rel="nofollow">关于我们</a>
+      </dd>
+    </dl>
+    <div class="weibo right"><img src="https://www.heiguang.com/statics/footer/img/weibo.png"/>
+      <p>官方微博</p></div>
+    <div class="weixin right"><img src="https://www.heiguang.com/statics/footer/img/weixin.png"/>
+      <p>官方微信</p></div>
+    <div class="email right" style="display: none">
+      <p>客服邮箱</p>
+      <p><a href="mailto:kefu@heiguang.com" rel="nofollow">kefu@heiguang.com</a></p>
+      <p class="c999">来信必复</p>
+    </div>
+    <div class="clear"></div>
+    <div class="contact">广告热线：15606369669&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0536-8251786&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人：程老师&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ：112814087</div>
+    <div class="info c999">
+      <p>地址：山东省潍坊市奎文区世纪泰华国际商务中心a座705-706室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮政编码：261041</p>
+      <p>1992--<span id="theYear" style="display:inline;">2019</span>版权所有：潍坊黑光企业管理咨询有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">鲁ICP备05028882号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;法律顾问：天下正途
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+            href="https://www.heiguang.com/cert/zzdcywjyxkz.jpg" target="_blank" rel="nofollow">增值电信业务经营许可证：鲁B2-20180231</a>
+      </p>
+      <p><a href="http://weifang.cyberpolice.cn/index.html" rel="nofollow" target="_blank">网络信息安全监察</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="http://218.59.139.8:802/ShowResult.asp?sn=37070502000003">潍公网安备37070502000003号</a>
+      </p>
+    </div>
+    <div class="cert">
+      <a href="https://www.heiguang.com/cert/gsqyyyzzxxgsmb.htm" target="_blank" rel="nofollow"><img src="https://www.heiguang.com/cert/yyzzxxgs.jpg"/></a>
+    </div>
+  </div>
+</div>
+<!--foot end-->
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?b402e0a7169c75a55900fb37559d05b0";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+</body>
+</html>
